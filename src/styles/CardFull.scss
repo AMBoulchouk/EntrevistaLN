@@ -1,0 +1,209 @@
+@import 'vars';
+
+@media screen and (max-width: 419px) { 
+    .card-full-screen {
+        height: 35rem;
+        background: #BEE4FF;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        padding-top: 22.5rem;
+        padding-left: 0px;
+        padding-right: 0px;
+        box-sizing: border-box;
+    }
+
+    .content {
+        background: linear-gradient(0deg, #000000, rgba(245, 40, 145, 0));
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+    }
+    
+    .card-full-screen_chapita {
+        width: 5rem;
+        height: 1.5rem;
+        box-sizing: border-box;
+        background: #000000;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-full-screen_card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .card-full-screen_card-body_title {
+        font-family: 'SuecaSlab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 2rem;
+        color: #FFFFFF;
+    }
+    
+    .card-full-screen_card-body_author {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #F2F2F2;
+    }
+    
+}
+
+@media screen and (min-width: 420px) and (max-width: 859px) { 
+    .card-full-screen {
+        height: 46rem;
+        background: #BEE4FF;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        padding-top: 15rem;
+        padding-left: 0px;
+        padding-right: 0px;
+        box-sizing: border-box;
+    }
+
+    .content {
+        background: linear-gradient(0deg, #000000, rgba(245, 40, 145, 0));
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+    }
+    
+    .card-full-screen_chapita {
+        width: 5rem;
+        height: 1.5rem;
+        box-sizing: border-box;
+        background: #000000;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-full-screen_card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .card-full-screen_card-body_title {
+        font-family: 'SuecaSlab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5rem;
+        line-height: 5rem;
+        color: #FFFFFF;
+    }
+    
+    .card-full-screen_card-body_author {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #F2F2F2;
+    }
+}
+
+@media screen and (min-width: 860px) { 
+    .card-full-screen {
+        height: 52rem;
+        background: #BEE4FF;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        padding-top: 28rem;
+        padding-left: 0px;
+        padding-right: 0px;
+        box-sizing: border-box;
+    }
+
+    .content {
+        background: linear-gradient(0deg, #000000, rgba(245, 40, 145, 0));
+        width: 100%;
+        padding-left: 15rem;
+        padding-right: 15rem;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+    }
+    
+    .card-full-screen_chapita {
+        width: 5rem;
+        height: 1.5rem;
+        box-sizing: border-box;
+        background: #000000;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-full-screen_card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .card-full-screen_card-body_title {
+        font-family: 'SuecaSlab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 5rem;
+        color: #FFFFFF;
+    }
+    
+    .card-full-screen_card-body_author {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #F2F2F2;
+    }
+}
