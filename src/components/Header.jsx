@@ -1,8 +1,6 @@
-import React, { useState, useContext } from 'react';
+import React from 'react';
 
 import '@styles/Header.scss';
-
-import AppContext from '@context/AppContext';
 
 const Header = () => {
 
